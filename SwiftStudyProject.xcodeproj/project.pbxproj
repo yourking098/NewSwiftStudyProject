@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
 		CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799F218AFD2D00234157 /* ViewController.swift */; };
 		CB5779A3218AFD2D00234157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A1218AFD2D00234157 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */; };
 		CB5779B3218AFD3000234157 /* SwiftStudyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779B2218AFD3000234157 /* SwiftStudyProjectTests.swift */; };
 		CB5779BE218AFD3000234157 /* SwiftStudyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */; };
+		CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */; };
+		CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */; };
+		CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FC21F1640800842FA4 /* FindViewController.swift */; };
+		CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FE21F1641600842FA4 /* MineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB57799D218AFD2D00234157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB57799F218AFD2D00234157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		CB5779B9218AFD3000234157 /* SwiftStudyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyProjectUITests.swift; sourceTree = "<group>"; };
 		CB5779BF218AFD3000234157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
+		CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
+		CBF8E2FC21F1640800842FA4 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		CBF8E2FE21F1641600842FA4 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				CB5779A4218AFD3000234157 /* Assets.xcassets */,
 				CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */,
 				CB5779A9218AFD3000234157 /* Info.plist */,
+				CB167525218BDB42002D0203 /* Person.swift */,
+				CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */,
+				CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */,
+				CBF8E2FC21F1640800842FA4 /* FindViewController.swift */,
+				CBF8E2FE21F1641600842FA4 /* MineViewController.swift */,
 			);
 			path = SwiftStudyProject;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
+				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
+				CB167526218BDB42002D0203 /* Person.swift in Sources */,
+				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
+				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

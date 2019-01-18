@@ -388,7 +388,23 @@ class ViewController: UIViewController {
         let aFun = chooseFunction(backwards: 3>2)
         print(aFun(3))  //2
         
+        let student = Student()
+        
+        /********************************
+         自定义构造函数
+        ********************************/
+        let person = Person(newName: "陈重煌", newAge: 22, isRefresh: false)
+        print(person.say())
+        
     }
-    
+}
+
+/********************************
+ 使用默认构造函数，需要初始化属性值
+ ********************************/
+class Student {
+    //类属性
+    var name:String = ""
+    var number:Int = 0
 }
 

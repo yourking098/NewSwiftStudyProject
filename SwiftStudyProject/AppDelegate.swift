@@ -16,7 +16,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let wechat  = WeChatViewController()
+        let address = AddressBookViewController()
+        let find    = FindViewController()
+        let mine    = MineViewController()
+        
+        creatTabbarView(viewController: wechat, image: "tabbar_mainframe", selectImage: "tabbar_mainframeHL", title: "微信")
+        creatTabbarView(viewController: address, image: "tabbar_contacts", selectImage: "tabbar_contactsHL", title: "通讯录")
+        creatTabbarView(viewController: find, image: "tabbar_discover", selectImage: "tabbar_discoverHL", title: "发现")
+        creatTabbarView(viewController: mine, image: "tabbar_me", selectImage: "tabbar_meHL", title: "我")
+        
+        let tabBarController = UITabBarController()
+        tabBarController.tabBar.tintColor = UIColor(red: 9/255.0, green: 187/255.0, blue: 7/255.0, alpha: 1)
+        // tabBarController的子视图控制器集合
+        tabBarController.viewControllers = [UINavigationController(rootViewController: wechat),
+                                            UINavigationController(rootViewController: address),
+                                            UINavigationController(rootViewController: find),
+                                            UINavigationController(rootViewController: mine)]
+        // 添加到rootViewController
+        window?.rootViewController = tabBarController
+        // 修改tabbar的位置
+        //tabBarController.tabBar.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 44)
+        // 修改UITabBarController的索引
+        tabBarController.selectedIndex = 2
+        // Tab图标上方显示角标
+        wechat.tabBarItem.badgeValue = "10"
+        
         return true
+    }
+    
+    func creatTabbarView(viewController:UIViewController, image:NSString, selectImage:NSString, title:NSString) {
+        // alwaysOriginal 始终绘制图片原始状态，不使用Tint Color。
+        viewController.tabBarItem.image = UIImage(named: image as String)?.withRenderingMode(.alwaysOriginal)
+        viewController.tabBarItem.selectedImage = UIImage(named: selectImage as String)?.withRenderingMode(.alwaysOriginal)
+        viewController.title = title as String
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
