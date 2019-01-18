@@ -30,10 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
         tabBarController.tabBar.tintColor = UIColor(red: 9/255.0, green: 187/255.0, blue: 7/255.0, alpha: 1)
         // tabBarController的子视图控制器集合
-        tabBarController.viewControllers = [UINavigationController(rootViewController: wechat),
-                                            UINavigationController(rootViewController: address),
-                                            UINavigationController(rootViewController: find),
-                                            UINavigationController(rootViewController: mine)]
+        tabBarController.viewControllers =
+            [UINavigationController(rootViewController: wechat),
+                            UINavigationController(rootViewController: address),
+                            UINavigationController(rootViewController: find),
+                            UINavigationController(rootViewController: mine)]
         // 添加到rootViewController
         window?.rootViewController = tabBarController
         // 修改tabbar的位置
