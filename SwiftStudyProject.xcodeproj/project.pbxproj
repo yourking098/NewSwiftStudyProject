@@ -107,6 +107,7 @@
 		CB57799C218AFD2D00234157 /* SwiftStudyProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBF8E30021F16FC000842FA4 /* Source */,
 				CB57799D218AFD2D00234157 /* AppDelegate.swift */,
 				CB57799F218AFD2D00234157 /* ViewController.swift */,
 				CB5779A1218AFD2D00234157 /* Main.storyboard */,
@@ -114,10 +115,6 @@
 				CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */,
 				CB5779A9218AFD3000234157 /* Info.plist */,
 				CB167525218BDB42002D0203 /* Person.swift */,
-				CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */,
-				CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */,
-				CBF8E2FC21F1640800842FA4 /* FindViewController.swift */,
-				CBF8E2FE21F1641600842FA4 /* MineViewController.swift */,
 			);
 			path = SwiftStudyProject;
 			sourceTree = "<group>";
@@ -138,6 +135,57 @@
 				CB5779BF218AFD3000234157 /* Info.plist */,
 			);
 			path = SwiftStudyProjectUITests;
+			sourceTree = "<group>";
+		};
+		CBF8E30021F16FC000842FA4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E30121F16FD300842FA4 /* Module */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CBF8E30121F16FD300842FA4 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E30521F1701500842FA4 /* Mine */,
+				CBF8E30421F1700900842FA4 /* Find */,
+				CBF8E30321F16FFA00842FA4 /* AddressBook */,
+				CBF8E30221F16FDA00842FA4 /* WeChat */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		CBF8E30221F16FDA00842FA4 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		CBF8E30321F16FFA00842FA4 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		CBF8E30421F1700900842FA4 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E2FC21F1640800842FA4 /* FindViewController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		CBF8E30521F1701500842FA4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E2FE21F1641600842FA4 /* MineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
