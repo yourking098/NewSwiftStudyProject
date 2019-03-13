@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         
         let tupleData = (name:"valentyTupleData",age:30);
         print("元数组\(tupleData.name)")
+        print("\(tupleData.age)")
     }
     
     func sectionOperate() {

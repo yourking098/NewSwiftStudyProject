@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 修改tabbar的位置
         //tabBarController.tabBar.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 44)
         // 修改UITabBarController的索引
-        tabBarController.selectedIndex = 2
+        tabBarController.selectedIndex = 0
         // Tab图标上方显示角标
         wechat.tabBarItem.badgeValue = "10"
         
