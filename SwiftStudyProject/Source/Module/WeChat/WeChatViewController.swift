@@ -24,7 +24,7 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
         view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
         
-        lessonArray = ["Swift - 基本数据类型，及常/变量声明"]
+        lessonArray = ["1、Swift - 基本数据类型，及常/变量声明"]
         
         self.view.addSubview(self.tableView)
         self.tableView.reloadData()
@@ -43,6 +43,7 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let basicDataTypesVC = BasicDataTypesViewController()
+        
         
         self.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(basicDataTypesVC, animated: true)
