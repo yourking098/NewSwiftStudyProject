@@ -6,6 +6,7 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.0)
   - ObjectMapper (3.4.2)
+  - ReachabilitySwift (4.3.0)
   - Result (4.1.0)
   - RxAtomic (4.4.1)
   - RxCocoa (4.4.1):
@@ -17,6 +18,7 @@ PODS:
 DEPENDENCIES:
   - Moya
   - ObjectMapper
+  - ReachabilitySwift
   - RxCocoa
   - RxSwift
   - SnapKit
@@ -26,6 +28,7 @@ SPEC REPOS:
     - Alamofire
     - Moya
     - ObjectMapper
+    - ReachabilitySwift
     - Result
     - RxAtomic
     - RxCocoa
@@ -36,12 +39,13 @@ SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
   RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
   RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 97fe1c0071d38c5156865ef0e12719341f2ef39f
+PODFILE CHECKSUM: c3a3ab6db51d61e50cc6e3afad915dadda4a8234
 
 COCOAPODS: 1.5.3
