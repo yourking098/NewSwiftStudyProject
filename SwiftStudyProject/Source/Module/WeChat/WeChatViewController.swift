@@ -23,10 +23,15 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
         view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
         
-        let lessonDict1:[String:Any] = ["controller":"BasicDataTypesViewController","title":"1、Swift - 基本数据类型，及常/变量声明"]
+        let dataPath:String = Bundle.main.path(forResource: "WechatViewData", ofType: "plist")!
+        let data:Array = NSArray(contentsOfFile: dataPath)! as Array
+        lessonArray = data;
         
         
-        lessonArray.append(lessonDict1)
+//        let lessonDict1:[String:Any] = ["controller":"BasicDataTypesViewController","title":"1、Swift - 基本数据类型，及常/变量声明"]
+        
+        
+//        lessonArray.append(lessonDict1)
         
         self.view.addSubview(self.tableView)
         self.tableView.reloadData()

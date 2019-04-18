@@ -15,6 +15,9 @@
 		CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */; };
 		CB5779B3218AFD3000234157 /* SwiftStudyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779B2218AFD3000234157 /* SwiftStudyProjectTests.swift */; };
 		CB5779BE218AFD3000234157 /* SwiftStudyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */; };
+		CBCB2C1B22684D4C00A6398D /* WechatViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */; };
+		CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1C2268521000A6398D /* RandomViewController.swift */; };
+		CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */; };
 		CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE63A782238D80D000A6613 /* BasicDataTypesViewController.swift */; };
 		CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */; };
 		CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */; };
@@ -58,6 +61,9 @@
 		CB5779B9218AFD3000234157 /* SwiftStudyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyProjectUITests.swift; sourceTree = "<group>"; };
 		CB5779BF218AFD3000234157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WechatViewData.plist; sourceTree = "<group>"; };
+		CBCB2C1C2268521000A6398D /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalOperatorViewController.swift; sourceTree = "<group>"; };
 		CBE63A782238D80D000A6613 /* BasicDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
 		CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +139,7 @@
 		CB57799C218AFD2D00234157 /* SwiftStudyProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBCB2C1722684CF600A6398D /* Resourse */,
 				CBF8E30021F16FC000842FA4 /* Source */,
 				CB57799D218AFD2D00234157 /* AppDelegate.swift */,
 				CB57799F218AFD2D00234157 /* ViewController.swift */,
@@ -163,6 +170,14 @@
 			path = SwiftStudyProjectUITests;
 			sourceTree = "<group>";
 		};
+		CBCB2C1722684CF600A6398D /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
 		CBF8E30021F16FC000842FA4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +202,8 @@
 			children = (
 				CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */,
 				CBE63A782238D80D000A6613 /* BasicDataTypesViewController.swift */,
+				CBCB2C1C2268521000A6398D /* RandomViewController.swift */,
+				CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -324,6 +341,7 @@
 				CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */,
 				CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */,
 				CB5779A3218AFD2D00234157 /* Main.storyboard in Resources */,
+				CBCB2C1B22684D4C00A6398D /* WechatViewData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +432,13 @@
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
+				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
+				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
