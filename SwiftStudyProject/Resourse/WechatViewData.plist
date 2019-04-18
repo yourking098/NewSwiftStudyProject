@@ -26,5 +26,11 @@
 		<key>title</key>
 		<string>4、Swift - 运算符重载和运算符函数</string>
 	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ComplexDataTypesViewController</string>
+		<key>title</key>
+		<string>5、Swift - 复杂数据类型说明（数组，字典，结构体，枚举）</string>
+	</dict>
 </array>
 </plist>

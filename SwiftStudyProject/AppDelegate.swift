@@ -22,10 +22,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let find    = FindViewController()
         let mine    = MineViewController()
         
-        creatTabbarView(viewController: wechat, image: "tabbar_mainframe", selectImage: "tabbar_mainframeHL", title: "微信")
-        creatTabbarView(viewController: address, image: "tabbar_contacts", selectImage: "tabbar_contactsHL", title: "通讯录")
-        creatTabbarView(viewController: find, image: "tabbar_discover", selectImage: "tabbar_discoverHL", title: "发现")
-        creatTabbarView(viewController: mine, image: "tabbar_me", selectImage: "tabbar_meHL", title: "我")
+        let wechatDict:[String: Any] = ["viewController":wechat,"image":"tabbar_mainframe","selectImage": "tabbar_mainframeHL", "title": "微信"]
+        let addressDict:[String: Any] = ["viewController":address,"image":"tabbar_contacts","selectImage": "tabbar_contactsHL", "title": "通讯录"]
+        let findDict:[String: Any] = ["viewController":find,"image":"tabbar_discover","selectImage": "tabbar_discoverHL", "title": "发现"]
+        let mineDict:[String: Any] = ["viewController":mine,"image":"tabbar_me","selectImage": "tabbar_meHL", "title": "我"]
+        let controllerArray = [wechatDict,addressDict,findDict,mineDict]
+        for value in controllerArray {
+            let vcDict = value
+            
+            creatTabbarView(viewController: vcDict["viewController"] as! UIViewController, image: vcDict["image"] as! NSString, selectImage: vcDict["selectImage"] as! NSString, title: vcDict["title"] as! NSString)
+        }
         
         let tabBarController = UITabBarController()
         tabBarController.tabBar.tintColor = UIColor(red: 9/255.0, green: 187/255.0, blue: 7/255.0, alpha: 1)
