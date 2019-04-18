@@ -20,5 +20,11 @@
 		<key>title</key>
 		<string>3、Swift - 区间运算符（... 和 ..&lt;）</string>
 	</dict>
+	<dict>
+		<key>controller</key>
+		<string>OperatorOverrideViewController</string>
+		<key>title</key>
+		<string>4、Swift - 运算符重载和运算符函数</string>
+	</dict>
 </array>
 </plist>

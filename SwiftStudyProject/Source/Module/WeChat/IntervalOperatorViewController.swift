@@ -52,6 +52,13 @@ class IntervalOperatorViewController: UIViewController {
         //使用区间运算符
         let index3 = words.index(words.startIndex, offsetBy: 5)..<words.index(words.startIndex, offsetBy: 8)
         print("index3:\(words[index3])")//e.c
+        
+        let interval = "a"..."z"
+        for c in words {
+            if !interval.contains(String(c)) {
+                print("\(c)不是小写字母")
+            }
+        }
     }
     
 
