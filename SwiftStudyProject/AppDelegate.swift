@@ -27,20 +27,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let findDict:[String: Any] = ["viewController":find,"image":"tabbar_discover","selectImage": "tabbar_discoverHL", "title": "发现"]
         let mineDict:[String: Any] = ["viewController":mine,"image":"tabbar_me","selectImage": "tabbar_meHL", "title": "我"]
         let controllerArray = [wechatDict,addressDict,findDict,mineDict]
-        for value in controllerArray {
-            let vcDict = value
-            
-            creatTabbarView(viewController: vcDict["viewController"] as! UIViewController, image: vcDict["image"] as! NSString, selectImage: vcDict["selectImage"] as! NSString, title: vcDict["title"] as! NSString)
-        }
         
         let tabBarController = UITabBarController()
+        var navigationVCArray = [UINavigationController]()
+        for value in controllerArray {
+            let vcDict = value
+            //获取控制器
+            let vc = vcDict["viewController"] as! UIViewController
+            //Tabbar内容
+            creatTabbarView(viewController:vc , image: vcDict["image"] as! NSString, selectImage: vcDict["selectImage"] as! NSString, title: vcDict["title"] as! NSString)
+            //把控制器添加到导航栏中
+            let navVC = UINavigationController(rootViewController: vc)
+            navigationVCArray.append(navVC)
+        }
+        
         tabBarController.tabBar.tintColor = UIColor(red: 9/255.0, green: 187/255.0, blue: 7/255.0, alpha: 1)
-        // tabBarController的子视图控制器集合
-        tabBarController.viewControllers =
-            [UINavigationController(rootViewController: wechat),
-                            UINavigationController(rootViewController: address),
-                            UINavigationController(rootViewController: find),
-                            UINavigationController(rootViewController: mine)]
+        tabBarController.viewControllers = navigationVCArray;
         // 添加到rootViewController
         window?.rootViewController = tabBarController
         // 修改tabbar的位置
