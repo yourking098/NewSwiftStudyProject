@@ -20,6 +20,8 @@ class ComplexDataTypesViewController: UIViewController {
         self.title = "复杂数据类型说明";
         
         self.ArrayMethod()
+        
+        self.DictionMethod();
     }
     
     //一、数组 - Array
@@ -47,10 +49,61 @@ class ComplexDataTypesViewController: UIViewController {
         
         members.removeLast()
         print("移除最后一个的members数组：\(members)")
+
+        let addStringArr = types + members //数组组合
+        print("数组组合：\(addStringArr)")
+        
+        for value in addStringArr {
+            print("使用for in 实现数组遍历：\(value)")
+        }
+        
+        for (index,value) in addStringArr.enumerated() {
+            print("通过enumerate函数同时遍历数组的所有索引与数据，索引：\(index)数据：\(value)")
+        }
+        
+        /////TEST///////
+        let newTypes = addStringArr.filter{$0.count < 6}
+        print("过滤数组元素\(newTypes)")
+        
+        //创建包含100个元素的数组 ["条目0", "条目1" ... "条目99"]
+        let items = Array(0..<100).map{"条目\($0)"}
+        print("创建0-100的数组\(items)")
         
     }
+    //二、字典 - Dictionary（即键值对）
+    func DictionMethod() {
+        var empty = [String: Int]()  //建立个空字典
+        
+        var myDic = ["name":"hangge",
+                     "url":"hangge.com"]  //声明一个字典
+        
+        myDic["address"] = "china" //添加或修改key值
+        myDic.removeValue(forKey: "name")  //删除"name"这个key值
+        myDic["name"] = nil  //同样可以删除"name"这个key值
+        //myDic.keys  //访问字典的key集合
+        //myDic.values //访问字典的values集合
+        
+        //遍历字典
+        for (key,value) in myDic {
+            print("遍历字典键值:\(key):\(value)");
+        }
+        
+        //只遍历字典的键（key）
+        for key in myDic.keys {
+            print("只遍历字典的键:\(key)");
+        }
+        
+        //只遍历字典的值（value）
+        for value in myDic.values {
+            print("只遍历字典的值:\(value)");
+        }
+        
+        //过滤字典元素
+        let dict2 = myDic.filter {$0.value.count < 6}
+        print("过滤字典元素:\(dict2)")
+    }
     
-
+    
     /*
     // MARK: - Navigation
 
