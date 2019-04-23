@@ -30,7 +30,25 @@
 		<key>controller</key>
 		<string>ComplexDataTypesViewController</string>
 		<key>title</key>
-		<string>5、2019.4.8-复杂数据类型说明（数组，字典，结构体，枚举）</string>
+		<string>5.1、2019.4.22-复杂数据类型（数组）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>DictionaryDataTypesViewController</string>
+		<key>title</key>
+		<string>5.2、2019.4.23-复杂数据类型（字典）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>StructDataTypesViewController</string>
+		<key>title</key>
+		<string>5.3、2019.4.23-复杂数据类型（结构体）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>EnumDataTypesViewController</string>
+		<key>title</key>
+		<string>5.4、2019.4.23-复杂数据类型（枚举）</string>
 	</dict>
 </array>
 </plist>

@@ -15,6 +15,9 @@
 		CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */; };
 		CB5779B3218AFD3000234157 /* SwiftStudyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779B2218AFD3000234157 /* SwiftStudyProjectTests.swift */; };
 		CB5779BE218AFD3000234157 /* SwiftStudyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */; };
+		CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */; };
+		CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */; };
+		CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */; };
 		CBCB2C1B22684D4C00A6398D /* WechatViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */; };
 		CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1C2268521000A6398D /* RandomViewController.swift */; };
 		CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */; };
@@ -63,6 +66,9 @@
 		CB5779B9218AFD3000234157 /* SwiftStudyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyProjectUITests.swift; sourceTree = "<group>"; };
 		CB5779BF218AFD3000234157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataTypesViewController.swift; sourceTree = "<group>"; };
+		CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDataTypesViewController.swift; sourceTree = "<group>"; };
+		CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WechatViewData.plist; sourceTree = "<group>"; };
 		CBCB2C1C2268521000A6398D /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalOperatorViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +216,9 @@
 				CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */,
 				CBCB2C202268615600A6398D /* OperatorOverrideViewController.swift */,
 				CBCB2C222268740A00A6398D /* ComplexDataTypesViewController.swift */,
+				CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */,
+				CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */,
+				CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -438,15 +447,18 @@
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CBCB2C232268740A00A6398D /* ComplexDataTypesViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
+				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
+				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
 				CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
 				CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */,
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
+				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
