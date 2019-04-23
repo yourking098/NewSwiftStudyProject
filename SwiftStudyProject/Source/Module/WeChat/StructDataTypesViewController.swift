@@ -19,6 +19,8 @@ class StructDataTypesViewController: UIViewController {
         self.title = "结构体";
         
         
+        
+        
         // Do any additional setup after loading the view.
     }
     
