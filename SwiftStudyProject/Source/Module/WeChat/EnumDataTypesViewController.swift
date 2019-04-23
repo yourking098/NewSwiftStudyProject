@@ -19,20 +19,46 @@ class EnumDataTypesViewController: UIViewController {
         self.title = "枚举";
         
         
+        let directionToHead = CompassPoint.east
+        print(directionToHead)
         
         
+        let earthsOrder = Planet.earth.rawValue //rawValue来获取他的原始值:3
+        print("获取枚举值：\(earthsOrder)")
+        
+        
+        let directionDescription = Direction.up.description()
+        print("重写枚举description方法：\(directionDescription)")
         // Do any additional setup after loading the view.
     }
     
+}
 
-    /*
-    // MARK: - Navigation
+enum CompassPoint {
+    case north
+    case south
+    case east
+    case west
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+enum Planet: Int {
+    case mercury = 1
+    case venus = 2
+    case earth = 3
+}
+
+enum Direction {
+    case up
+    case down
+    //重写description方法
+    func description() -> String {
+        switch self {
+        case .up:
+            return "向上"
+        case .down:
+            return "向下"
+        default:
+            return ""
+        }
     }
-    */
-
 }

@@ -18,12 +18,19 @@ class StructDataTypesViewController: UIViewController {
         //区间运算符可以用来表示两个操作数之间的范围集合。
         self.title = "结构体";
         
-        
-        
-        
+        self.StructMethod()
         // Do any additional setup after loading the view.
     }
     
+    //结构体
+    func StructMethod() {
+        var book1:BookInfo//默认构造器创建结构体实例
+        var book2 = BookInfo(ID: 0021, Name: "书籍名称", Author: "test1223")//调用逐一构造器创建实例
+        print("书本名称：\(book2.Name)")
+        
+        book2.ID = 12122 //修改内部值
+        print("书本作者：\(book2.ID)")
+    }
 
     /*
     // MARK: - Navigation
@@ -35,4 +42,10 @@ class StructDataTypesViewController: UIViewController {
     }
     */
 
+}
+
+struct BookInfo {
+    var ID:Int = 0
+    var Name:String = "Defaut"
+    var Author:String = "Defaut"
 }
