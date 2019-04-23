@@ -18,11 +18,11 @@
 		CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */; };
 		CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */; };
 		CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */; };
+		CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A44226EF33500C20709 /* ArrayDataTypesViewController.swift */; };
 		CBCB2C1B22684D4C00A6398D /* WechatViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */; };
 		CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1C2268521000A6398D /* RandomViewController.swift */; };
 		CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */; };
 		CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C202268615600A6398D /* OperatorOverrideViewController.swift */; };
-		CBCB2C232268740A00A6398D /* ComplexDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB2C222268740A00A6398D /* ComplexDataTypesViewController.swift */; };
 		CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE63A782238D80D000A6613 /* BasicDataTypesViewController.swift */; };
 		CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */; };
 		CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */; };
@@ -69,11 +69,11 @@
 		CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDataTypesViewController.swift; sourceTree = "<group>"; };
+		CBBE7A44226EF33500C20709 /* ArrayDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WechatViewData.plist; sourceTree = "<group>"; };
 		CBCB2C1C2268521000A6398D /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalOperatorViewController.swift; sourceTree = "<group>"; };
 		CBCB2C202268615600A6398D /* OperatorOverrideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverrideViewController.swift; sourceTree = "<group>"; };
-		CBCB2C222268740A00A6398D /* ComplexDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBE63A782238D80D000A6613 /* BasicDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
 		CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
@@ -215,7 +215,7 @@
 				CBCB2C1C2268521000A6398D /* RandomViewController.swift */,
 				CBCB2C1E2268549E00A6398D /* IntervalOperatorViewController.swift */,
 				CBCB2C202268615600A6398D /* OperatorOverrideViewController.swift */,
-				CBCB2C222268740A00A6398D /* ComplexDataTypesViewController.swift */,
+				CBBE7A44226EF33500C20709 /* ArrayDataTypesViewController.swift */,
 				CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */,
 				CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */,
 				CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */,
@@ -445,7 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
-				CBCB2C232268740A00A6398D /* ComplexDataTypesViewController.swift in Sources */,
+				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
 				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,

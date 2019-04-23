@@ -1,18 +1,18 @@
 //
-//  ComplexDataTypesViewController.swift
+//  ArrayDataTypesViewController.swift
 //  SwiftStudyProject
 //
-//  Created by chanvalenty on 2019/4/18.
+//  Created by chanvalenty on 2019/4/23.
 //  Copyright © 2019 chanvalenty. All rights reserved.
 //
 
 import UIKit
 
-class ComplexDataTypesViewController: UIViewController {
+class ArrayDataTypesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
@@ -48,7 +48,7 @@ class ComplexDataTypesViewController: UIViewController {
         
         members.removeLast()
         print("移除最后一个的members数组：\(members)")
-
+        
         let addStringArr = types + members //数组组合
         print("数组组合：\(addStringArr)")
         
@@ -70,8 +70,7 @@ class ComplexDataTypesViewController: UIViewController {
         
     }
     
-    
-    
+
     /*
     // MARK: - Navigation
 

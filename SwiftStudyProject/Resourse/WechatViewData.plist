@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>ComplexDataTypesViewController</string>
+		<string>ArrayDataTypesViewController</string>
 		<key>title</key>
 		<string>5.1、2019.4.22-复杂数据类型（数组）</string>
 	</dict>
