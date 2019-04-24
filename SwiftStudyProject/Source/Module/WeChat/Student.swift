@@ -12,4 +12,5 @@ class Student: NSObject {
     //类属性
     var name:String = ""
     var number:Int = 0
+    
 }

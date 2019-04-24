@@ -80,5 +80,11 @@
 		<key>title</key>
 		<string>8.2、2019.4.24- 类反初始化</string>
 	</dict>
+	<dict>
+		<key>controller</key>
+		<string>PropertyViewController</string>
+		<key>title</key>
+		<string>9、2019.4.24- 属性观察者（willSet与didSet）</string>
+	</dict>
 </array>
 </plist>

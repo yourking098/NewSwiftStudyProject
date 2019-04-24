@@ -17,6 +17,8 @@
 		CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B7B226FFA890001C6A9 /* ClassInitViewController.swift */; };
 		CBBD9B7E226FFA990001C6A9 /* ClassDeinitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */; };
 		CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B81226FFB430001C6A9 /* Student.swift */; };
+		CBBD9B84226FFCBF0001C6A9 /* DBClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */; };
+		CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */; };
 		CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */; };
 		CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */; };
 		CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */; };
@@ -73,6 +75,8 @@
 		CBBD9B7B226FFA890001C6A9 /* ClassInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInitViewController.swift; sourceTree = "<group>"; };
 		CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDeinitViewController.swift; sourceTree = "<group>"; };
 		CBBD9B81226FFB430001C6A9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBClass.swift; sourceTree = "<group>"; };
+		CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 		CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDataTypesViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 				CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */,
 				CB167525218BDB42002D0203 /* Person.swift */,
 				CBBD9B81226FFB430001C6A9 /* Student.swift */,
+				CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */,
+				CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -470,6 +476,7 @@
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
+				CBBD9B84226FFCBF0001C6A9 /* DBClass.swift in Sources */,
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
@@ -477,6 +484,7 @@
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
 				CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */,
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
+				CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */,
 				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 			);

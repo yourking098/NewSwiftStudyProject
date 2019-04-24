@@ -18,6 +18,9 @@ class ClassDeinitViewController: UIViewController {
         //区间运算符可以用来表示两个操作数之间的范围集合。
         self.title = "类反初始化";
         
+        var dbClass:DBClass? = DBClass()
+        dbClass = nil;
+        
     }
     
 
