@@ -57,8 +57,6 @@ enum Direction {
             return "向上"
         case .down:
             return "向下"
-        default:
-            return ""
         }
     }
 }

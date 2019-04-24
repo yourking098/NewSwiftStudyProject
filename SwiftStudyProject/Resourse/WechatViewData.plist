@@ -50,5 +50,23 @@
 		<key>title</key>
 		<string>5.4、2019.4.23-复杂数据类型（枚举）</string>
 	</dict>
+	<dict>
+		<key>controller</key>
+		<string>IfSwitchViewController</string>
+		<key>title</key>
+		<string>6.1、2019.4.23- 控制流/控制结构（if，switch）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ForViewController</string>
+		<key>title</key>
+		<string>6.2、2019.4.23- 控制流/控制结构（for）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>FunctionViewController</string>
+		<key>title</key>
+		<string>7、2019.4.23- 自定义函数规则</string>
+	</dict>
 </array>
 </plist>
