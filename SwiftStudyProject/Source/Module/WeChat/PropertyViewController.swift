@@ -67,11 +67,10 @@ class People {
         }
     }
     
-    
-    
     func toSay() -> String {
         return "我叫:\(name ?? ""),英文名是:\(fullName) " + ", 今年: \(age)岁,今天要讲的主题是：《\(title)》"
     }
+    
     
     
     //1. 属性的读写方法
@@ -85,33 +84,36 @@ class People {
         }
     }
     
+    
     //2. 存储型属性 & 计算型属性
     /**
     存储型属性 - 需要开辟空间，以存储数据
-    计算型属性 - 执行函数返回其他内存地址**/
+    计算型属性 - 执行函数返回其他内存地址
+     **/
     var title: String {
         get {
             return "Mr." + (name ?? "")
         }
-        //return "Mr " + (name ?? "")
+        //return "Mr." + (name ?? "")
     }
 
+    
     //3.计算型属性与懒加载的对比
     /**
     计算型属性
     不分配独立的存储空间保存计算结果
-    每次调用时都会被执行**/
-
+    每次调用时都会被执行
+     **/
     var title2: String {
-        return "Mr" + (name ?? "")
+        return "Mr." + (name ?? "")
     }
     
-    /*懒加载属性
+    /**懒加载属性
      在第一次调用时，执行闭包并且分配空间存储闭包返回的数值
      会分配独立的存储空间
-     与 OC 不同的是，lazy 属性即使被设置为 nil 也不会被再次调用*/
-    
+     与 OC 不同的是，lazy 属性即使被设置为 nil 也不会被再次调用
+     **/
     lazy var title3: String = {
-        return "Mr " + (self.name ?? "")
+        return "Mr." + (self.name ?? "")
     }()
 }

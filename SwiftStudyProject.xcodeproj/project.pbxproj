@@ -19,6 +19,14 @@
 		CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B81226FFB430001C6A9 /* Student.swift */; };
 		CBBD9B84226FFCBF0001C6A9 /* DBClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */; };
 		CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */; };
+		CBBD9B88227010B80001C6A9 /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B87227010B80001C6A9 /* StaticViewController.swift */; };
+		CBBD9B8A22703A260001C6A9 /* ClassPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B8922703A260001C6A9 /* ClassPropertyViewController.swift */; };
+		CBBD9B8C22703E7D0001C6A9 /* SubStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B8B22703E7D0001C6A9 /* SubStringViewController.swift */; };
+		CBBD9B8E22703E970001C6A9 /* SubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B8D22703E970001C6A9 /* SubString.swift */; };
+		CBBD9B902270481F0001C6A9 /* VisitModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B8F2270481F0001C6A9 /* VisitModifierViewController.swift */; };
+		CBBD9B9222704B160001C6A9 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B9122704B160001C6A9 /* ExtensionViewController.swift */; };
+		CBBD9B9422704FB10001C6A9 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B9322704FB10001C6A9 /* ProtocolViewController.swift */; };
+		CBBD9B98227058560001C6A9 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B97227058560001C6A9 /* FileViewController.swift */; };
 		CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */; };
 		CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */; };
 		CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */; };
@@ -77,6 +85,14 @@
 		CBBD9B81226FFB430001C6A9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBClass.swift; sourceTree = "<group>"; };
 		CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
+		CBBD9B87227010B80001C6A9 /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
+		CBBD9B8922703A260001C6A9 /* ClassPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPropertyViewController.swift; sourceTree = "<group>"; };
+		CBBD9B8B22703E7D0001C6A9 /* SubStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubStringViewController.swift; sourceTree = "<group>"; };
+		CBBD9B8D22703E970001C6A9 /* SubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubString.swift; sourceTree = "<group>"; };
+		CBBD9B8F2270481F0001C6A9 /* VisitModifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitModifierViewController.swift; sourceTree = "<group>"; };
+		CBBD9B9122704B160001C6A9 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		CBBD9B9322704FB10001C6A9 /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
+		CBBD9B97227058560001C6A9 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
 		CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDataTypesViewController.swift; sourceTree = "<group>"; };
@@ -240,6 +256,14 @@
 				CBBD9B81226FFB430001C6A9 /* Student.swift */,
 				CBBD9B83226FFCBF0001C6A9 /* DBClass.swift */,
 				CBBD9B85226FFF650001C6A9 /* PropertyViewController.swift */,
+				CBBD9B87227010B80001C6A9 /* StaticViewController.swift */,
+				CBBD9B8922703A260001C6A9 /* ClassPropertyViewController.swift */,
+				CBBD9B8B22703E7D0001C6A9 /* SubStringViewController.swift */,
+				CBBD9B8D22703E970001C6A9 /* SubString.swift */,
+				CBBD9B8F2270481F0001C6A9 /* VisitModifierViewController.swift */,
+				CBBD9B9122704B160001C6A9 /* ExtensionViewController.swift */,
+				CBBD9B9322704FB10001C6A9 /* ProtocolViewController.swift */,
+				CBBD9B97227058560001C6A9 /* FileViewController.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -471,17 +495,25 @@
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CBBE7A4B226F063C00C20709 /* ForViewController.swift in Sources */,
 				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
+				CBBD9B98227058560001C6A9 /* FileViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
 				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
+				CBBD9B9422704FB10001C6A9 /* ProtocolViewController.swift in Sources */,
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
+				CBBD9B8E22703E970001C6A9 /* SubString.swift in Sources */,
 				CBBD9B84226FFCBF0001C6A9 /* DBClass.swift in Sources */,
+				CBBD9B8C22703E7D0001C6A9 /* SubStringViewController.swift in Sources */,
+				CBBD9B88227010B80001C6A9 /* StaticViewController.swift in Sources */,
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
+				CBBD9B902270481F0001C6A9 /* VisitModifierViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
+				CBBD9B9222704B160001C6A9 /* ExtensionViewController.swift in Sources */,
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
+				CBBD9B8A22703A260001C6A9 /* ClassPropertyViewController.swift in Sources */,
 				CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */,
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
 				CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */,

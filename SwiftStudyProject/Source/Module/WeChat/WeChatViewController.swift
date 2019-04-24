@@ -47,12 +47,13 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
 
         var lessonDict = self.lessonArray[indexPath.row] as![String:Any]
         cell?.textLabel?.text = lessonDict["title"] as?String
+        cell?.textLabel?.font = UIFont.systemFont(ofSize: 14)
         return cell ?? UITableViewCell.init()
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        if self.lessonArray.count > 0 {
+        if (self.lessonArray.count) > 0 {
             //        print(WeChatViewController())   //SwiftStudyProject.WeChatViewController <nameSpace.ViewController: 0x7fe04b70c890>
             var lessonDict = self.lessonArray[indexPath.row] as![String:Any]
             let currentController = lessonDict["controller"] as?String
@@ -65,9 +66,9 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
             }
             let vc = className.init()
             
-            self.hidesBottomBarWhenPushed = true
+//            self.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(vc, animated: true)
-            self.hidesBottomBarWhenPushed = false
+//            self.hidesBottomBarWhenPushed = false
         }
     }
     

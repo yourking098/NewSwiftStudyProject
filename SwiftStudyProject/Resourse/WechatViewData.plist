@@ -4,87 +4,129 @@
 <array>
 	<dict>
 		<key>controller</key>
-		<string>BasicDataTypesViewController</string>
+		<string>FileViewController</string>
 		<key>title</key>
-		<string>1、2019.4.8-基本数据类型，及常/变量声明</string>
+		<string>15、4.24-文件，文件夹操作大全</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>RandomViewController</string>
+		<string>ProtocolViewController</string>
 		<key>title</key>
-		<string>2、2019.4.8-使用arc4random()、arc4random_uniform()取得随机数</string>
+		<string>15、4.24-协议（protocol）</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>IntervalOperatorViewController</string>
+		<string>ExtensionViewController</string>
 		<key>title</key>
-		<string>3、2019.4.8-区间运算符（... 和 ..&lt;）</string>
+		<string>14、4.24-类的扩展（Extension）</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>OperatorOverrideViewController</string>
+		<string>VisitModifierViewController</string>
 		<key>title</key>
-		<string>4、2019.4.8-运算符重载和运算符函数</string>
+		<string>13、4.24-访问控制（fileprivate，private，internal，public，open）</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>ArrayDataTypesViewController</string>
+		<string>SubStringViewController</string>
 		<key>title</key>
-		<string>5.1、2019.4.22-复杂数据类型（数组）</string>
+		<string>***12、4.24- 下标脚本方法介绍及实例</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>DictionaryDataTypesViewController</string>
+		<string>ClassPropertyViewController</string>
 		<key>title</key>
-		<string>5.2、2019.4.23-复杂数据类型（字典）</string>
+		<string>11、4.24- 类的计算属性（使用get和set来间接获取/改变其他属性的值）</string>
 	</dict>
 	<dict>
 		<key>controller</key>
-		<string>StructDataTypesViewController</string>
+		<string>StaticViewController</string>
 		<key>title</key>
-		<string>5.3、2019.4.23-复杂数据类型（结构体）</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>EnumDataTypesViewController</string>
-		<key>title</key>
-		<string>5.4、2019.4.23-复杂数据类型（枚举）</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>IfSwitchViewController</string>
-		<key>title</key>
-		<string>6.1、2019.4.23- 控制流/控制结构（if，switch）</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>ForViewController</string>
-		<key>title</key>
-		<string>6.2、2019.4.23- 控制流/控制结构（for）</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>FunctionViewController</string>
-		<key>title</key>
-		<string>7、2019.4.23- 自定义函数规则</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>ClassInitViewController</string>
-		<key>title</key>
-		<string>8.1、2019.4.24- 类初始化</string>
-	</dict>
-	<dict>
-		<key>controller</key>
-		<string>ClassDeinitViewController</string>
-		<key>title</key>
-		<string>8.2、2019.4.24- 类反初始化</string>
+		<string>10、4.24- class与staitc关键字的区别与使用（类方法、静态方法）</string>
 	</dict>
 	<dict>
 		<key>controller</key>
 		<string>PropertyViewController</string>
 		<key>title</key>
-		<string>9、2019.4.24- 属性观察者（willSet与didSet）</string>
+		<string>9、4.24- 属性观察者（willSet与didSet）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ClassDeinitViewController</string>
+		<key>title</key>
+		<string>8.2、4.24- 类反初始化</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ClassInitViewController</string>
+		<key>title</key>
+		<string>8.1、4.24- 类初始化</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>FunctionViewController</string>
+		<key>title</key>
+		<string>7、4.23- 自定义函数规则</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ForViewController</string>
+		<key>title</key>
+		<string>6.2、4.23- 控制流/控制结构（for）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>IfSwitchViewController</string>
+		<key>title</key>
+		<string>6.1、4.23- 控制流/控制结构（if，switch）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>EnumDataTypesViewController</string>
+		<key>title</key>
+		<string>5.4、4.23-复杂数据类型（枚举）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>StructDataTypesViewController</string>
+		<key>title</key>
+		<string>5.3、4.23-复杂数据类型（结构体）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>DictionaryDataTypesViewController</string>
+		<key>title</key>
+		<string>5.2、4.23-复杂数据类型（字典）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ArrayDataTypesViewController</string>
+		<key>title</key>
+		<string>5.1、4.22-复杂数据类型（数组）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>OperatorOverrideViewController</string>
+		<key>title</key>
+		<string>4、4.8-运算符重载和运算符函数</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>IntervalOperatorViewController</string>
+		<key>title</key>
+		<string>3、4.8-区间运算符（... 和 ..&lt;）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>RandomViewController</string>
+		<key>title</key>
+		<string>2、4.8-使用arc4random()、arc4random_uniform()取得随机数</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>BasicDataTypesViewController</string>
+		<key>title</key>
+		<string>1、4.8-基本数据类型，及常/变量声明</string>
 	</dict>
 </array>
 </plist>
