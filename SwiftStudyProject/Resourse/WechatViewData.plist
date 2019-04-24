@@ -68,5 +68,17 @@
 		<key>title</key>
 		<string>7、2019.4.23- 自定义函数规则</string>
 	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ClassInitViewController</string>
+		<key>title</key>
+		<string>8.1、2019.4.24- 类初始化</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ClassDeinitViewController</string>
+		<key>title</key>
+		<string>8.2、2019.4.24- 类反初始化</string>
+	</dict>
 </array>
 </plist>

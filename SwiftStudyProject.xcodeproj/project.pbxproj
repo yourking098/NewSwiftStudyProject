@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
-		CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799F218AFD2D00234157 /* ViewController.swift */; };
 		CB5779A3218AFD2D00234157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A1218AFD2D00234157 /* Main.storyboard */; };
 		CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A4218AFD3000234157 /* Assets.xcassets */; };
 		CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */; };
 		CB5779B3218AFD3000234157 /* SwiftStudyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779B2218AFD3000234157 /* SwiftStudyProjectTests.swift */; };
 		CB5779BE218AFD3000234157 /* SwiftStudyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */; };
+		CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B7B226FFA890001C6A9 /* ClassInitViewController.swift */; };
+		CBBD9B7E226FFA990001C6A9 /* ClassDeinitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */; };
+		CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD9B81226FFB430001C6A9 /* Student.swift */; };
 		CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */; };
 		CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */; };
 		CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */; };
@@ -58,7 +60,6 @@
 		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB57799D218AFD2D00234157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB57799F218AFD2D00234157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB5779A2218AFD2D00234157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB5779A4218AFD3000234157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB5779A7218AFD3000234157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +70,9 @@
 		CB5779B9218AFD3000234157 /* SwiftStudyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5779BD218AFD3000234157 /* SwiftStudyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyProjectUITests.swift; sourceTree = "<group>"; };
 		CB5779BF218AFD3000234157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBD9B7B226FFA890001C6A9 /* ClassInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInitViewController.swift; sourceTree = "<group>"; };
+		CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDeinitViewController.swift; sourceTree = "<group>"; };
+		CBBD9B81226FFB430001C6A9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		CBBE7A3E226EF06300C20709 /* DictionaryDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A40226EF0C100C20709 /* StructDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDataTypesViewController.swift; sourceTree = "<group>"; };
 		CBBE7A42226EF0DF00C20709 /* EnumDataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDataTypesViewController.swift; sourceTree = "<group>"; };
@@ -158,12 +162,10 @@
 				CBCB2C1722684CF600A6398D /* Resourse */,
 				CBF8E30021F16FC000842FA4 /* Source */,
 				CB57799D218AFD2D00234157 /* AppDelegate.swift */,
-				CB57799F218AFD2D00234157 /* ViewController.swift */,
 				CB5779A1218AFD2D00234157 /* Main.storyboard */,
 				CB5779A4218AFD3000234157 /* Assets.xcassets */,
 				CB5779A6218AFD3000234157 /* LaunchScreen.storyboard */,
 				CB5779A9218AFD3000234157 /* Info.plist */,
-				CB167525218BDB42002D0203 /* Person.swift */,
 			);
 			path = SwiftStudyProject;
 			sourceTree = "<group>";
@@ -228,6 +230,10 @@
 				CBBE7A48226F04C000C20709 /* IfSwitchViewController.swift */,
 				CBBE7A4A226F063C00C20709 /* ForViewController.swift */,
 				CBBE7A4C226F141100C20709 /* FunctionViewController.swift */,
+				CBBD9B7B226FFA890001C6A9 /* ClassInitViewController.swift */,
+				CBBD9B7D226FFA990001C6A9 /* ClassDeinitViewController.swift */,
+				CB167525218BDB42002D0203 /* Person.swift */,
+				CBBD9B81226FFB430001C6A9 /* Student.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -453,6 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBD9B7E226FFA990001C6A9 /* ClassDeinitViewController.swift in Sources */,
+				CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */,
 				CBBE7A4D226F141100C20709 /* FunctionViewController.swift in Sources */,
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CBBE7A4B226F063C00C20709 /* ForViewController.swift in Sources */,
@@ -465,11 +473,11 @@
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
-				CB5779A0218AFD2D00234157 /* ViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
 				CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */,
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
+				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
