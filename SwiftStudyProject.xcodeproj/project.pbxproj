@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
+		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
+		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
 		CB5779A3218AFD2D00234157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A1218AFD2D00234157 /* Main.storyboard */; };
 		CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5779A4218AFD3000234157 /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		3DB2EB109272F7E84CF20196 /* Pods-SwiftStudyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject.release.xcconfig"; sourceTree = "<group>"; };
 		70DD95FAE627B7E8BAF14A9B /* Pods-SwiftStudyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
+		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB57799D218AFD2D00234157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB5779A2218AFD2D00234157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -272,10 +276,12 @@
 				CBBD9B9122704B160001C6A9 /* ExtensionViewController.swift */,
 				CBBD9B9322704FB10001C6A9 /* ProtocolViewController.swift */,
 				CBBD9B97227058560001C6A9 /* FileViewController.swift */,
-				CBEABDDF227193A3005E3D13 /* ClosureViewController.swift */,
 				CBEABDE12271B278005E3D13 /* GenericityViewController.swift */,
 				CBEABDE32271B723005E3D13 /* AnyViewController.swift */,
 				CBEABDE52271C642005E3D13 /* OptionalViewController.swift */,
+				CBEABDDF227193A3005E3D13 /* ClosureViewController.swift */,
+				CB4718F522729DC30096483F /* UseClosureViewController.swift */,
+				CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -444,28 +450,40 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -509,6 +527,7 @@
 				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
 				CBBD9B98227058560001C6A9 /* FileViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
+				CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */,
 				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
 				CBBD9B9422704FB10001C6A9 /* ProtocolViewController.swift in Sources */,
@@ -522,6 +541,7 @@
 				CBEABDE62271C642005E3D13 /* OptionalViewController.swift in Sources */,
 				CBBD9B88227010B80001C6A9 /* StaticViewController.swift in Sources */,
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
+				CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
