@@ -46,7 +46,7 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: identify)
 
         var lessonDict = self.lessonArray[indexPath.row] as![String:Any]
-        cell?.textLabel?.text = lessonDict["title"] as?String
+        cell?.textLabel?.text = lessonDict["title"] as? String
         cell?.textLabel?.font = UIFont.systemFont(ofSize: 14)
         return cell ?? UITableViewCell.init()
     }

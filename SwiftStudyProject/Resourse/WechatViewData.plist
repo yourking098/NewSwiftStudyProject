@@ -4,6 +4,30 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>OptionalViewController</string>
+		<key>title</key>
+		<string>15、4.25-可选型</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>AnyViewController</string>
+		<key>title</key>
+		<string>15、4.25-Any、AnyObject与类型转化</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>GenericityViewController</string>
+		<key>title</key>
+		<string>15、4.25-泛型</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>ClosureViewController</string>
+		<key>title</key>
+		<string>15、4.25-闭包</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>FileViewController</string>
 		<key>title</key>
 		<string>15、4.24-文件，文件夹操作大全</string>

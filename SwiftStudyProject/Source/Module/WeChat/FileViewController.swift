@@ -12,7 +12,10 @@ class FileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.white
+        
+        //区间运算符可以用来表示两个操作数之间的范围集合。
+        self.title = "文件，文件夹操作";
         // Do any additional setup after loading the view.
     }
     
