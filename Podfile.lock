@@ -5,6 +5,7 @@ PODS:
   - Charts/Core (3.2.2)
   - CryptoSwift (0.14.0)
   - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
   - Moya (12.0.1):
     - Moya/Core (= 12.0.1)
   - Moya/Core (12.0.1):
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - Charts
   - CryptoSwift
   - MBProgressHUD
+  - MJRefresh
   - Moya
   - ObjectMapper
   - PromiseKit
@@ -51,6 +53,7 @@ SPEC REPOS:
     - Charts
     - CryptoSwift
     - MBProgressHUD
+    - MJRefresh
     - Moya
     - ObjectMapper
     - PromiseKit
@@ -68,6 +71,7 @@ SPEC CHECKSUMS:
   Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
   CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
@@ -80,6 +84,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwipeCellKit: 30fd6a4f8a8b8ac864ea389c8b4c8bac5ba5471a
 
-PODFILE CHECKSUM: 19dd3066e4c19c27603e88146cc43cf0203a058d
+PODFILE CHECKSUM: de638779e845ec4c3699d9212c29b247b023fd63
 
 COCOAPODS: 1.5.3
