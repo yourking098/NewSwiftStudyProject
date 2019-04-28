@@ -29,6 +29,16 @@ pod 'SideMenu'#第三方侧栏菜单组件SideMenu【第三方侧栏菜单组件
 
 pod 'FMDB'#第三方SQLite库FMDB【第三方SQLite库FMDB使用详解】
 #pod 'AAInfographics'#第三方图表库AAInfographics【第三方图表库AAInfographics使用详解】
+pod 'SwiftDate'#第三方日期处理库SwiftDate【第三方日期处理库SwiftDate使用详解】
+#pod 'PagingMenuController'#【分页菜单的实现（使用PagingMenuController库实现tab标签切换）】
+pod 'SwiftForms'#【SwiftForms的使用详解（第三方Form表单组件 ）】
+
+pod 'GCDWebServer'#【GCDWebServer使用详解1（介绍、安装配置、HTTP服务实现）】
+#pod 'GCDWebServer/WebUploader'
+#pod 'GCDWebServer/WebDAV'
+
+pod 'XCGLogger'#【日志框架XCGLogger的使用详解】
+
 
 end
 
