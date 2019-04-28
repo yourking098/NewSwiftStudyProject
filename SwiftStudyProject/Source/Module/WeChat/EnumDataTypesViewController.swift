@@ -22,7 +22,7 @@ class EnumDataTypesViewController: UIViewController {
         let directionToHead = CompassPoint.east
         print(directionToHead)
         
-        
+        let rawValue = Planet(rawValue: 1)
         let earthsOrder = Planet.earth.rawValue //rawValue来获取他的原始值:3
         print("获取枚举值：\(earthsOrder)")
         

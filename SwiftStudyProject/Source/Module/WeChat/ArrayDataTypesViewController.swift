@@ -59,6 +59,10 @@ class ArrayDataTypesViewController: UIViewController {
         for (index,value) in addStringArr.enumerated() {
             print("通过enumerate函数同时遍历数组的所有索引与数据，索引：\(index)数据：\(value)")
         }
+        let newTypesFilter = addStringArr.filter { (strS:String) -> Bool in
+            return strS.count < 6
+        }
+        print("过滤数组元素\(newTypesFilter)")
         
         /////TEST///////
         let newTypes = addStringArr.filter{$0.count < 6}

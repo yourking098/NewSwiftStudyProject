@@ -75,6 +75,7 @@ class DictionaryDataTypesViewController: UIViewController {
         //字典分组（比如下面生成一个以首字母分组的字典）
         let groupNames = ["Apple", "Pear", "Grape", "Peach"]
         let groupDict = Dictionary(grouping: groupNames) { $0.first! }
+        
         print("字典分组：\(groupDict)") //["P": ["Pear", "Peach"], "G": ["Grape"], "A": ["Apple"]]
         
         //重复键的处理
