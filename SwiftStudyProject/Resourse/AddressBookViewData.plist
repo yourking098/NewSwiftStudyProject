@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UITextFieldViewController</string>
+		<key>title</key>
+		<string>3、文本输入框（UITextField）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UIButtonViewController</string>
 		<key>title</key>
 		<string>2、按钮（UIButton）的用法</string>

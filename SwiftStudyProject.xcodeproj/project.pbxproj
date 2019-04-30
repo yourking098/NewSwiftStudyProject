@@ -45,6 +45,7 @@
 		CBEABDE22271B278005E3D13 /* GenericityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE12271B278005E3D13 /* GenericityViewController.swift */; };
 		CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE32271B723005E3D13 /* AnyViewController.swift */; };
 		CBEABDE62271C642005E3D13 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE52271C642005E3D13 /* OptionalViewController.swift */; };
+		CBEDF3A822781A4A0098DF2F /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */; };
 		CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */; };
 		CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980C2276ECD50038428A /* UILabelViewController.swift */; };
 		CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980E2276F11F0038428A /* UIButtonViewController.swift */; };
@@ -120,6 +121,7 @@
 		CBEABDE12271B278005E3D13 /* GenericityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericityViewController.swift; sourceTree = "<group>"; };
 		CBEABDE32271B723005E3D13 /* AnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewController.swift; sourceTree = "<group>"; };
 		CBEABDE52271C642005E3D13 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
+		CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
 		CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBookViewData.plist; sourceTree = "<group>"; };
 		CBEF980C2276ECD50038428A /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		CBEF980E2276F11F0038428A /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
@@ -229,8 +231,8 @@
 		CBCB2C1722684CF600A6398D /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
-				CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */,
 				CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */,
+				CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
@@ -299,6 +301,7 @@
 				CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */,
 				CBEF980C2276ECD50038428A /* UILabelViewController.swift */,
 				CBEF980E2276F11F0038428A /* UIButtonViewController.swift */,
+				CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -568,6 +571,7 @@
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
+				CBEDF3A822781A4A0098DF2F /* UITextFieldViewController.swift in Sources */,
 				CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */,
 				CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
