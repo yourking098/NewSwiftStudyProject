@@ -45,6 +45,9 @@
 		CBEABDE22271B278005E3D13 /* GenericityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE12271B278005E3D13 /* GenericityViewController.swift */; };
 		CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE32271B723005E3D13 /* AnyViewController.swift */; };
 		CBEABDE62271C642005E3D13 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE52271C642005E3D13 /* OptionalViewController.swift */; };
+		CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */; };
+		CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980C2276ECD50038428A /* UILabelViewController.swift */; };
+		CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980E2276F11F0038428A /* UIButtonViewController.swift */; };
 		CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */; };
 		CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */; };
 		CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E2FC21F1640800842FA4 /* FindViewController.swift */; };
@@ -117,6 +120,9 @@
 		CBEABDE12271B278005E3D13 /* GenericityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericityViewController.swift; sourceTree = "<group>"; };
 		CBEABDE32271B723005E3D13 /* AnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewController.swift; sourceTree = "<group>"; };
 		CBEABDE52271C642005E3D13 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
+		CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBookViewData.plist; sourceTree = "<group>"; };
+		CBEF980C2276ECD50038428A /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
+		CBEF980E2276F11F0038428A /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
 		CBF8E2F821F163DB00842FA4 /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
 		CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
 		CBF8E2FC21F1640800842FA4 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +229,7 @@
 		CBCB2C1722684CF600A6398D /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
+				CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */,
 				CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */,
 			);
 			path = Resourse;
@@ -290,6 +297,8 @@
 			isa = PBXGroup;
 			children = (
 				CBF8E2FA21F163F700842FA4 /* AddressBookViewController.swift */,
+				CBEF980C2276ECD50038428A /* UILabelViewController.swift */,
+				CBEF980E2276F11F0038428A /* UIButtonViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -416,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */,
 				CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */,
 				CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */,
 				CB5779A3218AFD2D00234157 /* Main.storyboard in Resources */,
@@ -541,6 +551,7 @@
 				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
 				CBBD9B98227058560001C6A9 /* FileViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
+				CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */,
 				CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */,
 				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
@@ -558,6 +569,7 @@
 				CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
 				CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */,
+				CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
 				CBBD9B902270481F0001C6A9 /* VisitModifierViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,

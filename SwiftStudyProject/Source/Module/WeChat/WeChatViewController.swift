@@ -13,10 +13,6 @@ class WeChatViewController: UIViewController,UITableViewDelegate,UITableViewData
     //UITableView表格
     var lessonArray = [Any]()
     
-    override func loadView() {
-        super.loadView()
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
