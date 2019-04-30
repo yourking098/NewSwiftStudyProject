@@ -46,6 +46,9 @@
 		CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE32271B723005E3D13 /* AnyViewController.swift */; };
 		CBEABDE62271C642005E3D13 /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABDE52271C642005E3D13 /* OptionalViewController.swift */; };
 		CBEDF3A822781A4A0098DF2F /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */; };
+		CBEDF3AA227827B50098DF2F /* UITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */; };
+		CBEDF3AC22782C910098DF2F /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */; };
+		CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */; };
 		CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */; };
 		CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980C2276ECD50038428A /* UILabelViewController.swift */; };
 		CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980E2276F11F0038428A /* UIButtonViewController.swift */; };
@@ -122,6 +125,9 @@
 		CBEABDE32271B723005E3D13 /* AnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewController.swift; sourceTree = "<group>"; };
 		CBEABDE52271C642005E3D13 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
 		CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
+		CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewViewController.swift; sourceTree = "<group>"; };
+		CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
+		CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlViewController.swift; sourceTree = "<group>"; };
 		CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBookViewData.plist; sourceTree = "<group>"; };
 		CBEF980C2276ECD50038428A /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		CBEF980E2276F11F0038428A /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +308,9 @@
 				CBEF980C2276ECD50038428A /* UILabelViewController.swift */,
 				CBEF980E2276F11F0038428A /* UIButtonViewController.swift */,
 				CBEDF3A722781A4A0098DF2F /* UITextFieldViewController.swift */,
+				CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */,
+				CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */,
+				CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -551,6 +560,7 @@
 				CBBE7A4D226F141100C20709 /* FunctionViewController.swift in Sources */,
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CBBE7A4B226F063C00C20709 /* ForViewController.swift in Sources */,
+				CBEDF3AC22782C910098DF2F /* UISwitchViewController.swift in Sources */,
 				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
 				CBBD9B98227058560001C6A9 /* FileViewController.swift in Sources */,
 				CBE63A792238D80D000A6613 /* BasicDataTypesViewController.swift in Sources */,
@@ -560,9 +570,11 @@
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
 				CBBD9B9422704FB10001C6A9 /* ProtocolViewController.swift in Sources */,
 				CBEABDE22271B278005E3D13 /* GenericityViewController.swift in Sources */,
+				CBEDF3AA227827B50098DF2F /* UITextViewViewController.swift in Sources */,
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
 				CBEABDE0227193A3005E3D13 /* ClosureViewController.swift in Sources */,
+				CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */,
 				CBBD9B8E22703E970001C6A9 /* SubString.swift in Sources */,
 				CBBD9B84226FFCBF0001C6A9 /* DBClass.swift in Sources */,
 				CBBD9B8C22703E7D0001C6A9 /* SubStringViewController.swift in Sources */,

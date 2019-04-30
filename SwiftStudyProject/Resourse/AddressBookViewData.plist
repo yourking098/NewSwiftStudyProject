@@ -4,6 +4,24 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UISegmentedControlViewController</string>
+		<key>title</key>
+		<string>6、分段选择控件（UISegmentedControl）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UISwitchViewController</string>
+		<key>title</key>
+		<string>5、开关按钮（UISwitch）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UITextViewViewController</string>
+		<key>title</key>
+		<string>4、多行文本输入框（UITextView）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UITextFieldViewController</string>
 		<key>title</key>
 		<string>3、文本输入框（UITextField）的用法</string>
