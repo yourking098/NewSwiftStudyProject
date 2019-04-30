@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UIImageViewViewController</string>
+		<key>title</key>
+		<string>7、图像控件（UIImageView）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UISegmentedControlViewController</string>
 		<key>title</key>
 		<string>6、分段选择控件（UISegmentedControl）的用法</string>

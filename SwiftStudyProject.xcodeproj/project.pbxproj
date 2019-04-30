@@ -49,6 +49,8 @@
 		CBEDF3AA227827B50098DF2F /* UITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */; };
 		CBEDF3AC22782C910098DF2F /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */; };
 		CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */; };
+		CBEDF3B0227837070098DF2F /* UIImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */; };
+		CBEDF3B222783DEF0098DF2F /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBEDF3B122783DEF0098DF2F /* b.jpg */; };
 		CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */; };
 		CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980C2276ECD50038428A /* UILabelViewController.swift */; };
 		CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980E2276F11F0038428A /* UIButtonViewController.swift */; };
@@ -128,6 +130,8 @@
 		CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewViewController.swift; sourceTree = "<group>"; };
 		CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 		CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlViewController.swift; sourceTree = "<group>"; };
+		CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewViewController.swift; sourceTree = "<group>"; };
+		CBEDF3B122783DEF0098DF2F /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 		CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBookViewData.plist; sourceTree = "<group>"; };
 		CBEF980C2276ECD50038428A /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		CBEF980E2276F11F0038428A /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +241,7 @@
 		CBCB2C1722684CF600A6398D /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
+				CBEDF3B122783DEF0098DF2F /* b.jpg */,
 				CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */,
 				CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */,
 			);
@@ -311,6 +316,7 @@
 				CBEDF3A9227827B50098DF2F /* UITextViewViewController.swift */,
 				CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */,
 				CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */,
+				CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -437,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEDF3B222783DEF0098DF2F /* b.jpg in Resources */,
 				CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */,
 				CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */,
 				CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */,
@@ -568,6 +575,7 @@
 				CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */,
 				CBBE7A41226EF0C100C20709 /* StructDataTypesViewController.swift in Sources */,
 				CBF8E2F921F163DB00842FA4 /* WeChatViewController.swift in Sources */,
+				CBEDF3B0227837070098DF2F /* UIImageViewViewController.swift in Sources */,
 				CBBD9B9422704FB10001C6A9 /* ProtocolViewController.swift in Sources */,
 				CBEABDE22271B278005E3D13 /* GenericityViewController.swift in Sources */,
 				CBEDF3AA227827B50098DF2F /* UITextViewViewController.swift in Sources */,
