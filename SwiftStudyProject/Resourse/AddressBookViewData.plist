@@ -4,6 +4,18 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UISliderViewController</string>
+		<key>title</key>
+		<string>9、滑块（UISlider）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UIProgressViewViewController</string>
+		<key>title</key>
+		<string>8、进度条（UIProgressView）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UIImageViewViewController</string>
 		<key>title</key>
 		<string>7、图像控件（UIImageView）的用法</string>

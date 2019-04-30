@@ -51,6 +51,8 @@
 		CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */; };
 		CBEDF3B0227837070098DF2F /* UIImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */; };
 		CBEDF3B222783DEF0098DF2F /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBEDF3B122783DEF0098DF2F /* b.jpg */; };
+		CBEDF3B4227846870098DF2F /* UIProgressViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3B3227846870098DF2F /* UIProgressViewViewController.swift */; };
+		CBEDF3B622784D400098DF2F /* UISliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDF3B522784D400098DF2F /* UISliderViewController.swift */; };
 		CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */; };
 		CBEF980D2276ECD50038428A /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980C2276ECD50038428A /* UILabelViewController.swift */; };
 		CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF980E2276F11F0038428A /* UIButtonViewController.swift */; };
@@ -132,6 +134,8 @@
 		CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlViewController.swift; sourceTree = "<group>"; };
 		CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewViewController.swift; sourceTree = "<group>"; };
 		CBEDF3B122783DEF0098DF2F /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		CBEDF3B3227846870098DF2F /* UIProgressViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewViewController.swift; sourceTree = "<group>"; };
+		CBEDF3B522784D400098DF2F /* UISliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderViewController.swift; sourceTree = "<group>"; };
 		CBEF980A2276EB7B0038428A /* AddressBookViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBookViewData.plist; sourceTree = "<group>"; };
 		CBEF980C2276ECD50038428A /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		CBEF980E2276F11F0038428A /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +321,8 @@
 				CBEDF3AB22782C910098DF2F /* UISwitchViewController.swift */,
 				CBEDF3AD22782E9B0098DF2F /* UISegmentedControlViewController.swift */,
 				CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */,
+				CBEDF3B3227846870098DF2F /* UIProgressViewViewController.swift */,
+				CBEDF3B522784D400098DF2F /* UISliderViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -580,6 +586,8 @@
 				CBEABDE22271B278005E3D13 /* GenericityViewController.swift in Sources */,
 				CBEDF3AA227827B50098DF2F /* UITextViewViewController.swift in Sources */,
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
+				CBEDF3B622784D400098DF2F /* UISliderViewController.swift in Sources */,
+				CBEDF3B4227846870098DF2F /* UIProgressViewViewController.swift in Sources */,
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
 				CBEABDE0227193A3005E3D13 /* ClosureViewController.swift in Sources */,
 				CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */,
