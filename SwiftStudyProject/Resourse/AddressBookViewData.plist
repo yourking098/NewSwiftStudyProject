@@ -4,6 +4,18 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UIStepperViewController</string>
+		<key>title</key>
+		<string>14、微调器或叫步进器（UIStepper）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UIPickerViewViewController</string>
+		<key>title</key>
+		<string>13、选择框（UIPickerView）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>CusomViewUIAlertControllerViewController</string>
 		<key>title</key>
 		<string>12、自定义UIAlertController的样式2（添加自定义视图）</string>
