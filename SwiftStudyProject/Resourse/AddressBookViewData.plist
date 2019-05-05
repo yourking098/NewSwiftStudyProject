@@ -4,6 +4,18 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>CusomUIAlertControllerViewController</string>
+		<key>title</key>
+		<string>11、自定义UIAlertController的样式1（修改标题、按钮的字体和颜色）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UIAlertControllerViewController</string>
+		<key>title</key>
+		<string>10、告警提示框（UIAlertController）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UISliderViewController</string>
 		<key>title</key>
 		<string>9、滑块（UISlider）的用法</string>

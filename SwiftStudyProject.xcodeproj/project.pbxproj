@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB074D3A227E81A40002B754 /* UIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */; };
+		CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */; };
 		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
 		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
 		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
@@ -84,6 +86,8 @@
 		267776D5E50F8312D4668DAD /* Pods_SwiftStudyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStudyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB2EB109272F7E84CF20196 /* Pods-SwiftStudyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject.release.xcconfig"; sourceTree = "<group>"; };
 		70DD95FAE627B7E8BAF14A9B /* Pods-SwiftStudyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerViewController.swift; sourceTree = "<group>"; };
+		CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusomUIAlertControllerViewController.swift; sourceTree = "<group>"; };
 		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
 		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
@@ -323,6 +327,8 @@
 				CBEDF3AF227837070098DF2F /* UIImageViewViewController.swift */,
 				CBEDF3B3227846870098DF2F /* UIProgressViewViewController.swift */,
 				CBEDF3B522784D400098DF2F /* UISliderViewController.swift */,
+				CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */,
+				CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -599,6 +605,7 @@
 				CB167526218BDB42002D0203 /* Person.swift in Sources */,
 				CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */,
 				CBF8E2FF21F1641600842FA4 /* MineViewController.swift in Sources */,
+				CB074D3A227E81A40002B754 /* UIAlertControllerViewController.swift in Sources */,
 				CBEDF3A822781A4A0098DF2F /* UITextFieldViewController.swift in Sources */,
 				CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */,
 				CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */,
@@ -613,6 +620,7 @@
 				CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */,
 				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
+				CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
