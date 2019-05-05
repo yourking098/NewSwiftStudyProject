@@ -1,5 +1,5 @@
 //
-//  CusomUIAlertControllerViewController.swift
+//  CusomViewUIAlertControllerViewController.swift
 //  SwiftStudyProject
 //
 //  Created by chanvalenty on 2019/5/5.
@@ -8,31 +8,39 @@
 
 import UIKit
 
-class CusomUIAlertControllerViewController: UIViewController {
+class CusomViewUIAlertControllerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-//        self.view.backgroundColor = UIColor.white
+        //        self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
-        self.title = "自定义UIAlertController的样式（标题、按钮的字体和颜色）";
-        //自 iOS8 起，苹果就建议告警框使用 UIAlertController 来代替 UIAlertView 和 UIActionSheel。下面总结了一些常见的用法。
+        self.title = "自定义UIAlertController的样式2（添加自定义视图）";
         
-        let alertController = MyAlertController(title: "系统提示",
-                                                message: "您确定要离开 hangge.com 吗？",
-                                                preferredStyle: .alert)
+        let alertController = UIAlertController(title: "\n\n\n\n\n\n\n\n\n\n",
+                                                message: nil,
+                                                preferredStyle: .actionSheet)
+        
+        //添加imageView控件
+        let image = UIImage(named: "b.jpg")
+        let imageView = UIImageView(image: image)
+        //actionSheet样式尺寸
+        imageView.frame = CGRect(x: 10, y: 10,
+                                 width: alertController.view.bounds.size.width - 40,
+                                 height: 190)
+        alertController.view.addSubview(imageView)
+        
         let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
-        let okAction = UIAlertAction(title: "好的", style: .default, handler: {
+        let okAction = UIAlertAction(title: "确定", style: .default, handler: {
             action in
             print("点击了确定")
         })
         alertController.addAction(cancelAction)
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
-        
-        
     }
     
+
     /*
     // MARK: - Navigation
 

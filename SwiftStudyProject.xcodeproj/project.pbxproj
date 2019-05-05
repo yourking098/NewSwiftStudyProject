@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CB074D3A227E81A40002B754 /* UIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */; };
 		CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */; };
+		CB074D3E227EC5260002B754 /* MyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D3D227EC5260002B754 /* MyAlertController.swift */; };
+		CB074D40227ECB050002B754 /* CusomViewUIAlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D3F227ECB050002B754 /* CusomViewUIAlertControllerViewController.swift */; };
 		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
 		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
 		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
@@ -88,6 +90,8 @@
 		70DD95FAE627B7E8BAF14A9B /* Pods-SwiftStudyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerViewController.swift; sourceTree = "<group>"; };
 		CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusomUIAlertControllerViewController.swift; sourceTree = "<group>"; };
+		CB074D3D227EC5260002B754 /* MyAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertController.swift; sourceTree = "<group>"; };
+		CB074D3F227ECB050002B754 /* CusomViewUIAlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusomViewUIAlertControllerViewController.swift; sourceTree = "<group>"; };
 		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
 		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
@@ -329,6 +333,8 @@
 				CBEDF3B522784D400098DF2F /* UISliderViewController.swift */,
 				CB074D39227E81A40002B754 /* UIAlertControllerViewController.swift */,
 				CB074D3B227EBA240002B754 /* CusomUIAlertControllerViewController.swift */,
+				CB074D3D227EC5260002B754 /* MyAlertController.swift */,
+				CB074D3F227ECB050002B754 /* CusomViewUIAlertControllerViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -578,6 +584,7 @@
 				CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */,
 				CBBE7A4D226F141100C20709 /* FunctionViewController.swift in Sources */,
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
+				CB074D3E227EC5260002B754 /* MyAlertController.swift in Sources */,
 				CBBE7A4B226F063C00C20709 /* ForViewController.swift in Sources */,
 				CBEDF3AC22782C910098DF2F /* UISwitchViewController.swift in Sources */,
 				CBBE7A45226EF33500C20709 /* ArrayDataTypesViewController.swift in Sources */,
@@ -609,6 +616,7 @@
 				CBEDF3A822781A4A0098DF2F /* UITextFieldViewController.swift in Sources */,
 				CBEABDE42271B723005E3D13 /* AnyViewController.swift in Sources */,
 				CBEF980F2276F11F0038428A /* UIButtonViewController.swift in Sources */,
+				CB074D40227ECB050002B754 /* CusomViewUIAlertControllerViewController.swift in Sources */,
 				CBBE7A3F226EF06300C20709 /* DictionaryDataTypesViewController.swift in Sources */,
 				CBBD9B902270481F0001C6A9 /* VisitModifierViewController.swift in Sources */,
 				CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */,
