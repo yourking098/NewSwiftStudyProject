@@ -19,6 +19,7 @@
 		CB417A80227FD80600F3C520 /* UIScrollViewPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */; };
 		CB417A82227FE1C300F3C520 /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A81227FE1C300F3C520 /* CoreMotionViewController.swift */; };
 		CB417A842280067B00F3C520 /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */; };
+		CB417A862280199800F3C520 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A852280199800F3C520 /* UIDatePickerViewController.swift */; };
 		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
 		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
@@ -107,6 +108,7 @@
 		CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewPagingViewController.swift; sourceTree = "<group>"; };
 		CB417A81227FE1C300F3C520 /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
 		CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
+		CB417A852280199800F3C520 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
 		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
 		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -356,6 +358,7 @@
 				CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */,
 				CB417A81227FE1C300F3C520 /* CoreMotionViewController.swift */,
 				CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */,
+				CB417A852280199800F3C520 /* UIDatePickerViewController.swift */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 				CBCB2C1D2268521000A6398D /* RandomViewController.swift in Sources */,
 				CBEDF3B622784D400098DF2F /* UISliderViewController.swift in Sources */,
 				CBEDF3B4227846870098DF2F /* UIProgressViewViewController.swift in Sources */,
+				CB417A862280199800F3C520 /* UIDatePickerViewController.swift in Sources */,
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
 				CB417A7C227FD33600F3C520 /* UIScrollViewViewController.swift in Sources */,
 				CBEABDE0227193A3005E3D13 /* ClosureViewController.swift in Sources */,

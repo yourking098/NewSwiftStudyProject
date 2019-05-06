@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UIDatePickerViewController</string>
+		<key>title</key>
+		<string>19、日期选择控件（UIDatePicker）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UIGestureRecognizerViewController</string>
 		<key>title</key>
 		<string>18、各种手势检测大全（UIGestureRecognizer及其子类）</string>

@@ -59,7 +59,6 @@ class UIGestureRecognizerViewController: UIViewController {
         tapSingle.require(toFail: tapDouble)//声明点击事件需要双击事件检测失败后才会执行
         self.view.addGestureRecognizer(tapDouble)
         
-        
         //4，UIPinchGestureRecognizer：捏合手势（两个手指进行放大缩小）
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(pinchDid(_:)))
         self.view.addGestureRecognizer(pinch)
