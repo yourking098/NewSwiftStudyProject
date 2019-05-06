@@ -4,6 +4,30 @@
 <array>
 	<dict>
 		<key>controller</key>
+		<string>UIGestureRecognizerViewController</string>
+		<key>title</key>
+		<string>18、各种手势检测大全（UIGestureRecognizer及其子类）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>CoreMotionViewController</string>
+		<key>title</key>
+		<string>17、加速传感器（CoreMotion）的用法，小球加速运动并反弹样例</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UIScrollViewPagingViewController</string>
+		<key>title</key>
+		<string>16、使用UIScrollView实现页面滚动切换</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>UIScrollViewViewController</string>
+		<key>title</key>
+		<string>15、滚动视图（UIScrollView）的用法</string>
+	</dict>
+	<dict>
+		<key>controller</key>
 		<string>UIStepperViewController</string>
 		<key>title</key>
 		<string>14、微调器或叫步进器（UIStepper）的用法</string>
