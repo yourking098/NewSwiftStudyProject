@@ -20,6 +20,8 @@
 		CB417A82227FE1C300F3C520 /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A81227FE1C300F3C520 /* CoreMotionViewController.swift */; };
 		CB417A842280067B00F3C520 /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */; };
 		CB417A862280199800F3C520 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A852280199800F3C520 /* UIDatePickerViewController.swift */; };
+		CB417A8822802C4C00F3C520 /* FindViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB417A8722802C4B00F3C520 /* FindViewData.plist */; };
+		CB417A8A22802C9700F3C520 /* AlamofireFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */; };
 		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
 		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
@@ -109,6 +111,8 @@
 		CB417A81227FE1C300F3C520 /* CoreMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
 		CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
 		CB417A852280199800F3C520 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
+		CB417A8722802C4B00F3C520 /* FindViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FindViewData.plist; sourceTree = "<group>"; };
+		CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireFirstViewController.swift; sourceTree = "<group>"; };
 		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
 		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +273,7 @@
 		CBCB2C1722684CF600A6398D /* Resourse */ = {
 			isa = PBXGroup;
 			children = (
+				CB417A8722802C4B00F3C520 /* FindViewData.plist */,
 				CB417A7D227FD46200F3C520 /* a.jpg */,
 				CBEDF3B122783DEF0098DF2F /* b.jpg */,
 				CBCB2C1A22684D4C00A6398D /* WechatViewData.plist */,
@@ -367,6 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				CBF8E2FC21F1640800842FA4 /* FindViewController.swift */,
+				CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -487,6 +493,7 @@
 			files = (
 				CBEDF3B222783DEF0098DF2F /* b.jpg in Resources */,
 				CBEF980B2276EB7B0038428A /* AddressBookViewData.plist in Resources */,
+				CB417A8822802C4C00F3C520 /* FindViewData.plist in Resources */,
 				CB5779A8218AFD3000234157 /* LaunchScreen.storyboard in Resources */,
 				CB417A7E227FD46200F3C520 /* a.jpg in Resources */,
 				CB5779A5218AFD3000234157 /* Assets.xcassets in Resources */,
@@ -659,6 +666,7 @@
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
 				CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */,
 				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
+				CB417A8A22802C9700F3C520 /* AlamofireFirstViewController.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 				CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */,
 			);
