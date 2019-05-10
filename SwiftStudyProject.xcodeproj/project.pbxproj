@@ -17,6 +17,8 @@
 		CB1C39B022840F5B00D99937 /* AlamofireBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */; };
 		CB1C39B222840FA000D99937 /* AlamofireUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */; };
 		CB1C39B422841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */; };
+		CB21FC8922854AD3005827D8 /* SnapKitBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21FC8822854AD3005827D8 /* SnapKitBaseViewController.swift */; };
+		CB21FC8B22856B5A005827D8 /* SnapKitUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21FC8A22856B5A005827D8 /* SnapKitUpdateViewController.swift */; };
 		CB417A7C227FD33600F3C520 /* UIScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A7B227FD33600F3C520 /* UIScrollViewViewController.swift */; };
 		CB417A7E227FD46200F3C520 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB417A7D227FD46200F3C520 /* a.jpg */; };
 		CB417A80227FD80600F3C520 /* UIScrollViewPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */; };
@@ -110,6 +112,8 @@
 		CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireBaseViewController.swift; sourceTree = "<group>"; };
 		CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireUploadViewController.swift; sourceTree = "<group>"; };
 		CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireUploadBreakContinueViewController.swift; sourceTree = "<group>"; };
+		CB21FC8822854AD3005827D8 /* SnapKitBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitBaseViewController.swift; sourceTree = "<group>"; };
+		CB21FC8A22856B5A005827D8 /* SnapKitUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitUpdateViewController.swift; sourceTree = "<group>"; };
 		CB417A7B227FD33600F3C520 /* UIScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewViewController.swift; sourceTree = "<group>"; };
 		CB417A7D227FD46200F3C520 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewPagingViewController.swift; sourceTree = "<group>"; };
@@ -379,6 +383,8 @@
 				CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */,
 				CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */,
 				CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */,
+				CB21FC8822854AD3005827D8 /* SnapKitBaseViewController.swift */,
+				CB21FC8A22856B5A005827D8 /* SnapKitUpdateViewController.swift */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -620,6 +626,7 @@
 			files = (
 				CB417A80227FD80600F3C520 /* UIScrollViewPagingViewController.swift in Sources */,
 				CB074D44227EE72C0002B754 /* UIStepperViewController.swift in Sources */,
+				CB21FC8922854AD3005827D8 /* SnapKitBaseViewController.swift in Sources */,
 				CBBD9B7E226FFA990001C6A9 /* ClassDeinitViewController.swift in Sources */,
 				CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */,
 				CB1C39B422841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift in Sources */,
@@ -677,6 +684,7 @@
 				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 				CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */,
+				CB21FC8B22856B5A005827D8 /* SnapKitUpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
