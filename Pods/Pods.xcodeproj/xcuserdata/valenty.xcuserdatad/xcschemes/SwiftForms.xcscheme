@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE2837ECF8708EAB6EC3E1C37F4E86B0"
+               BlueprintIdentifier = "FD87633C8D1BB38D7EF12A5B471E72F4"
+               BuildableName = "SwiftForms.framework"
                BlueprintName = "SwiftForms"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SwiftForms.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

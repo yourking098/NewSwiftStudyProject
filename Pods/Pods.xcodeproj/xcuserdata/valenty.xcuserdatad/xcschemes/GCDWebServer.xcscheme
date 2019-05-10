@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17645A2ECFF66EA47C1B7ABEE4EB9F9F"
+               BlueprintIdentifier = "01583BFC13C4E2AA36339AC7665A62EB"
+               BuildableName = "GCDWebServer.framework"
                BlueprintName = "GCDWebServer"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "GCDWebServer.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

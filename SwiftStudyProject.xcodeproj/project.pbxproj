@@ -14,6 +14,9 @@
 		CB074D42227ED9530002B754 /* UIPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D41227ED9530002B754 /* UIPickerViewViewController.swift */; };
 		CB074D44227EE72C0002B754 /* UIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB074D43227EE72C0002B754 /* UIStepperViewController.swift */; };
 		CB167526218BDB42002D0203 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB167525218BDB42002D0203 /* Person.swift */; };
+		CB1C39B022840F5B00D99937 /* AlamofireBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */; };
+		CB1C39B222840FA000D99937 /* AlamofireUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */; };
+		CB1C39B422841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */; };
 		CB417A7C227FD33600F3C520 /* UIScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A7B227FD33600F3C520 /* UIScrollViewViewController.swift */; };
 		CB417A7E227FD46200F3C520 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB417A7D227FD46200F3C520 /* a.jpg */; };
 		CB417A80227FD80600F3C520 /* UIScrollViewPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */; };
@@ -21,7 +24,6 @@
 		CB417A842280067B00F3C520 /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */; };
 		CB417A862280199800F3C520 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A852280199800F3C520 /* UIDatePickerViewController.swift */; };
 		CB417A8822802C4C00F3C520 /* FindViewData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB417A8722802C4B00F3C520 /* FindViewData.plist */; };
-		CB417A8A22802C9700F3C520 /* AlamofireFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */; };
 		CB4718F622729DC30096483F /* UseClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F522729DC30096483F /* UseClosureViewController.swift */; };
 		CB4718F82272AAF60096483F /* DoubleQuestionMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */; };
 		CB57799E218AFD2D00234157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB57799D218AFD2D00234157 /* AppDelegate.swift */; };
@@ -105,6 +107,9 @@
 		CB074D41227ED9530002B754 /* UIPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewViewController.swift; sourceTree = "<group>"; };
 		CB074D43227EE72C0002B754 /* UIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperViewController.swift; sourceTree = "<group>"; };
 		CB167525218BDB42002D0203 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireBaseViewController.swift; sourceTree = "<group>"; };
+		CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireUploadViewController.swift; sourceTree = "<group>"; };
+		CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireUploadBreakContinueViewController.swift; sourceTree = "<group>"; };
 		CB417A7B227FD33600F3C520 /* UIScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewViewController.swift; sourceTree = "<group>"; };
 		CB417A7D227FD46200F3C520 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 		CB417A7F227FD80600F3C520 /* UIScrollViewPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewPagingViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +117,6 @@
 		CB417A832280067B00F3C520 /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
 		CB417A852280199800F3C520 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
 		CB417A8722802C4B00F3C520 /* FindViewData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FindViewData.plist; sourceTree = "<group>"; };
-		CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireFirstViewController.swift; sourceTree = "<group>"; };
 		CB4718F522729DC30096483F /* UseClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseClosureViewController.swift; sourceTree = "<group>"; };
 		CB4718F72272AAF60096483F /* DoubleQuestionMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuestionMarkViewController.swift; sourceTree = "<group>"; };
 		CB57799A218AFD2D00234157 /* SwiftStudyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,7 +376,9 @@
 			isa = PBXGroup;
 			children = (
 				CBF8E2FC21F1640800842FA4 /* FindViewController.swift */,
-				CB417A8922802C9700F3C520 /* AlamofireFirstViewController.swift */,
+				CB1C39AF22840F5B00D99937 /* AlamofireBaseViewController.swift */,
+				CB1C39B122840FA000D99937 /* AlamofireUploadViewController.swift */,
+				CB1C39B322841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -527,7 +533,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
@@ -580,7 +586,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftStudyProject/Pods-SwiftStudyProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E2812CECBB4F553C715DFE1 /* [CP] Check Pods Manifest.lock */ = {
@@ -616,6 +622,7 @@
 				CB074D44227EE72C0002B754 /* UIStepperViewController.swift in Sources */,
 				CBBD9B7E226FFA990001C6A9 /* ClassDeinitViewController.swift in Sources */,
 				CBBD9B7C226FFA890001C6A9 /* ClassInitViewController.swift in Sources */,
+				CB1C39B422841C0D00D99937 /* AlamofireUploadBreakContinueViewController.swift in Sources */,
 				CBBE7A4D226F141100C20709 /* FunctionViewController.swift in Sources */,
 				CBF8E2FB21F163F700842FA4 /* AddressBookViewController.swift in Sources */,
 				CB074D3E227EC5260002B754 /* MyAlertController.swift in Sources */,
@@ -640,6 +647,7 @@
 				CBBE7A49226F04C000C20709 /* IfSwitchViewController.swift in Sources */,
 				CB417A7C227FD33600F3C520 /* UIScrollViewViewController.swift in Sources */,
 				CBEABDE0227193A3005E3D13 /* ClosureViewController.swift in Sources */,
+				CB1C39B022840F5B00D99937 /* AlamofireBaseViewController.swift in Sources */,
 				CBEDF3AE22782E9B0098DF2F /* UISegmentedControlViewController.swift in Sources */,
 				CBBD9B8E22703E970001C6A9 /* SubString.swift in Sources */,
 				CB417A842280067B00F3C520 /* UIGestureRecognizerViewController.swift in Sources */,
@@ -663,10 +671,10 @@
 				CBF8E2FD21F1640800842FA4 /* FindViewController.swift in Sources */,
 				CBBD9B8A22703A260001C6A9 /* ClassPropertyViewController.swift in Sources */,
 				CBCB2C212268615600A6398D /* OperatorOverrideViewController.swift in Sources */,
+				CB1C39B222840FA000D99937 /* AlamofireUploadViewController.swift in Sources */,
 				CBCB2C1F2268549E00A6398D /* IntervalOperatorViewController.swift in Sources */,
 				CBBD9B86226FFF650001C6A9 /* PropertyViewController.swift in Sources */,
 				CBBD9B82226FFB430001C6A9 /* Student.swift in Sources */,
-				CB417A8A22802C9700F3C520 /* AlamofireFirstViewController.swift in Sources */,
 				CBBE7A43226EF0DF00C20709 /* EnumDataTypesViewController.swift in Sources */,
 				CB074D3C227EBA240002B754 /* CusomUIAlertControllerViewController.swift in Sources */,
 			);

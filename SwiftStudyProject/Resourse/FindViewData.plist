@@ -4,7 +4,19 @@
 <array>
 	<dict>
 		<key>controller</key>
-		<string>AlamofireFirstViewController</string>
+		<string>AlamofireUploadBreakContinueViewController</string>
+		<key>title</key>
+		<string>3、HTTP网络操作库Alamofire使用详解3（文件下载，断点续传）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>AlamofireUploadViewController</string>
+		<key>title</key>
+		<string>2、HTTP网络操作库Alamofire使用详解2（文件上传）</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>AlamofireBaseViewController</string>
 		<key>title</key>
 		<string>1、HTTP网络操作库Alamofire使用详解1（配置，以及数据请求）</string>
 	</dict>

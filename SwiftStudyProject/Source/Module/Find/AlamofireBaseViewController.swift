@@ -9,8 +9,8 @@
 import UIKit
 import Alamofire
 
-class AlamofireFirstViewController: UIViewController {
-
+class AlamofireBaseViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
@@ -35,12 +35,18 @@ class AlamofireFirstViewController: UIViewController {
          （6）HTTP响应验证
          （7）TLS Certificate and Public Key Pinning（https证书有效性验证引发的安全问题）
          （8）Progress Closure & NSProgress
-        **/
+         **/
         
+        //        self.alamofireRequest()
+        //        self.responseResult()
+        self.printResult()
+    }
+    
+    // 二，使用Alamofire进行数据请求
+    func alamofireRequest() {
         /**
-         二，使用Alamofire进行数据请求
-          1，以GET请求为例
-        **/
+         1，以GET请求为例
+         **/
         //（1）不带参数，不带结果处理
         Alamofire.request("https://httpbin.org/get")
         //（2）带参数，不带结果处理
@@ -57,7 +63,7 @@ class AlamofireFirstViewController: UIViewController {
         }
         
         // 2，响应处理（Response Handling）
-       /**  （1）除了上面样例使用的responseJSON（处理json类型的返回结果）外，Alamofire还提供了许多其他类型的响应处理方法：
+        /**  （1）除了上面样例使用的responseJSON（处理json类型的返回结果）外，Alamofire还提供了许多其他类型的响应处理方法：
          response()
          responseData()
          responseString(encoding: NSStringEncoding)
@@ -93,17 +99,103 @@ class AlamofireFirstViewController: UIViewController {
                 print("30paotui.com：\(response.result.value)")
             }
         }
+        
+        // （6）同样也支持链式的返回结果处理
+        Alamofire.request("http://httpbin.org/post", method: .post).responseString { response in
+            print("Response String: \(response.result.value)")
+            }.responseJSON { response in
+                print("Response JSON: \(response.result.value)")
+        }
+        
+        
+        // 3，请求类型（HTTP Methods）
+        /** 除了上面使用的 .Get 类型（不指定的话，默认都是使用Get请求）。Alamofire还定义了许多其他的HTTP 方法（HTTP Medthods）可以使用。 **/
+        // 比如要使用 POST 请求，把 Alamofire.request 第二个参数做修改即可：
+        Alamofire.request("http://httpbin.org/post", method: .post)
+        
+        
+        // 4，请求参数（Parameters）
+        Alamofire.request("https://httpbin.org/get", parameters: ["foo":"bar"])// https://httpbin.org/get?foo=bar
+        
+        // （2）使用POST类型请求的时候，参数是放在在HTTP body里传递，url上看不到
+        let parameters:[String:Any] = [
+            "foo":"bar",
+            "baz":["a":1],
+            "qux":[
+                "x":1,
+                "y":2,
+                "z":3]
+        ]
+        
+        Alamofire.request("https://httpbin.org/post", method: .post, parameters: parameters).response { response in
+            print("\(response.request)")
+        }
+        
+        // 5，参数编码方式（Parameter Encoding）
+        /** //除了默认的方式外，Alamofire还支持URL、JSON、PropertyList以及自定义格式方式编码参数。
+         比如我们想要把一个字典类型的数据，使用json格式发起POST请求（数据将放在 body 中传输）：
+         **/
+        let encodingParameters:[String:Any] = [
+            "foo":[1,2,3],
+            "bar":["baz":"qux"]
+        ]
+        Alamofire.request("https://httpbin.org/post", method: .get, parameters: encodingParameters, encoding: JSONEncoding.default).response { response in
+            print("encodingParametersRequest：\(response.request)")
+        }
+        
+        //6，支持自定义Http头信息（HTTP Headers）
+        let headers:HTTPHeaders = [
+            "Authorization": "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
+            "Accept": "application/json"
+        ]
+        Alamofire.request("https://httpbin.org/headers",headers: headers).responseJSON { response in
+            print("\(response)")
+        }
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // 三，判断数据请求是否成功，并做相应的处理
+    func responseResult() {
+        Alamofire.request("https://httpbin.org/get", method: .get, parameters: ["foo":"bar"], encoding: URLEncoding.default).responseJSON { response in
+            if response.result.isSuccess {
+                print("数据获取成功!")
+            } else {
+                print(response.result.error)
+            }
+        }
+        
     }
-    */
-
+    
+    
+    // 四，打印调试（print和debugPrint）
+    func printResult() {
+        // 不管是 request对象还是 response对象都是支持打印输出的。根据不同的调试需求，我们可以自行选择使用 print 还是 debugPrint。
+        // 1，打印request对象
+        let request = Alamofire.request("https://httpbin.org/ip", parameters: ["foo":"bar"]).responseString { response in
+            print("print response：")
+            print(response)
+            
+            print("debugPrint response：")
+            debugPrint(response)
+        }
+        print("print request：")
+        print(request)
+        
+        print("debugPrint request：")
+        debugPrint(request)
+    }
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
